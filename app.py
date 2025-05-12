@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 st.set_page_config(layout="wide")
-st.title("Live-like OHLC Chart")
+st.title("OHLC,Volume,RSI,MACD Chart")
 #Load the sheet
 sheet_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTFH0Am4UhvY6KaiFZEw5QhAP17wUog-QwhFY70h5SCUEsA2ZX6ccfNZlvf3sNV-KF9dlbjdP_6xt51/pub?gid=1177240346&single=true&output=csv"
 df = pd.read_csv(sheet_url)
