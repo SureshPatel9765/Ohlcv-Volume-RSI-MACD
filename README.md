@@ -50,7 +50,15 @@ _______
 Free to use for personal or academic purposes.
 
 
+Project Vision
 
+This app is designed to make technical charting accessible without relying on paid APIs or complex setups.
+It helps users visually interpret price and momentum indicators side-by-side, making it easier to recognize market signals.
+
+Future Vision
+
+The next version will allow user interaction—either by inputting a stock symbol manually or choosing from a dropdown list.
+Google Apps Script may be used to dynamically update Google Sheets with historical data using GoogleFinance, keeping the app real-time and API-free.
 
 
 
