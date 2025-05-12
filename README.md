@@ -32,8 +32,11 @@ Run locally
 ___________
 
 git clone https://github.com/SureshPatel9765/Ohlcv-Volume-RSI-MACD.git
+
 cd Ohlcv-Volume-RSI-MACD
+
 pip install -r requirements.txt
+
 streamlit run app.py
 
 License
