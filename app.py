@@ -90,4 +90,4 @@ fig.update_layout(
     template="plotly_dark"
 )
 
-st.plotly_chart.show()
+st.plotly_chart(fig,use_container_width=True)
