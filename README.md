@@ -1,4 +1,5 @@
-# Ohlcv-Volume-RSI-MACD
+![Banner](OhlcvChart.png)
+
 Google Sheet and Python combination for technical chart
 # OHLCV + Volume + RSI + MACD Streamlit App
 
