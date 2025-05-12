@@ -76,6 +76,7 @@ fig.add_trace(go.Scatter(x=df.index, y=df['Signal'], mode='lines', name='Signal'
               row=3, col=1)
 fig.add_trace(go.Bar(x=df.index, y=df['MACD_hist'], name='MACD Histogram', marker=dict(color='green', opacity=0.4)),
               row=3, col=1)
+df['Volume'] = df['Volume'].abs()
 
 # Plot Volume bar chart
 fig.add_trace(go.Bar(x=df.index, y=df['Volume'], name="Volume", marker=dict(color='rgba(0, 100, 255, 0.4)')),
