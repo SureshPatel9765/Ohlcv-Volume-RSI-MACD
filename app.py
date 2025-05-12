@@ -80,6 +80,9 @@ fig.add_trace(go.Bar(x=df.index, y=df['MACD_hist'], name='MACD Histogram', marke
 # Plot Volume bar chart
 fig.add_trace(go.Bar(x=df.index, y=df['Volume'], name="Volume", marker=dict(color='rgba(0, 100, 255, 0.4)')),
               row=4, col=1)
+# Fix volume y-axis
+fig.update_yaxes(range=[0, df['Volume'].max() * 1.1], row=4, col=1)
+
 
 # Update layout
 fig.update_layout(
