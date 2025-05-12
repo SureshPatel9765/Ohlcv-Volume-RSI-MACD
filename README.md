@@ -18,6 +18,10 @@ No `yfinance` used —
 2. The Streamlit app reads that data using gspread.
 
 3. Plots are generated using Plotly.
+
+### Live Demo:
+[Click here to try the app](https://cv7mfz3rybxqg46fmze9o5.streamlit.app/)
+
    
 Requirements
 ____________
